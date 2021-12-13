@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gif grid item test should match with snapshop 1`] = `
+<div
+  className="card animate__animated animate__bounce"
+>
+  <img
+    alt="Soy un gif"
+    src="https://Test.jpg"
+  />
+  <p>
+    Soy un gif
+  </p>
+</div>
+`;

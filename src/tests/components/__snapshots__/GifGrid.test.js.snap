@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid Tests should match snapshot 1`] = `
+<Fragment>
+  <h2>
+    Keylor
+  </h2>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`GifGrid Tests should show items after load 1`] = `
+<Fragment>
+  <h2>
+    Keylor
+  </h2>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="AAA"
+      key="AAA"
+      title="Test"
+      url="https://test.jpg"
+    />
+  </div>
+</Fragment>
+`;

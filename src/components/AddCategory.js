@@ -20,6 +20,7 @@ const AddCategory = ( { setCategories } ) => {
     return (
         <>
             <form onSubmit={ handleSubmit }>
+                <p>{ value }</p>
                 <input 
                     type="text"
                     placeholder="Agregar Categoría"

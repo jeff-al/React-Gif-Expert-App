@@ -2,9 +2,9 @@ import { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import GifGrid from "./components/GifGrid";
 
-const GiftExpertApp = () => {
+const GifExpertApp = ({ defaultCAtegories = [] }) => {
 
-    const [categories, setCategories] = useState(["Keylor"]);
+    const [categories, setCategories] = useState( defaultCAtegories );
 
     return (
         <>
@@ -27,4 +27,4 @@ const GiftExpertApp = () => {
 
 } 
 
-export default GiftExpertApp;
+export default GifExpertApp;
